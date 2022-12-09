@@ -22,4 +22,14 @@
         android:name="com.dsu.dsu_std.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.dsu.dsu_std.ui.search.SearchFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.dsu.dsu_std.ui.settings.SettingFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
 </navigation>
